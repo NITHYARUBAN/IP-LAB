@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        a {
+            color: black;
+        }
+
+        label {
+            font-size: large;
+        }
+
+        body {
+            background-color: #007fff;
+            padding-top: 10%;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            let x = document.forms["log"]["uname"].value;
+            let y = document.forms["log"]["pword"].value;
+            let z = document.forms["log"]["bday"].value;
+            let w = document.forms["log"]["mail"].value;
+            if (x == "") {
+                alert("Fill the username.");
+                return false;
+            }
+            if (y == "") {
+                alert("Enter valid password.");
+                return false;
+            }
+            if (z == "")
+                alert("Enter your Date of Birth.");
+            return false;
+            if (w == "")
+                alert("Enter a Email-id.")
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <form name="log" onsubmit="return validateForm()" method="post">
+            <table>
+                <tr>
+                    <h1>LOGIN CARS</h1>
+                </tr>
+                <tr>
+                    <td><b><label for="fname">Username:</label></b></td>
+                    <td><input type="text" id="uname" name="uname"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="email">Email-id:</label></b></td>
+                    <td><input type="email" id="mail" name="mail"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="password">Password:</label></b></td>
+                    <td><input type="password" id="pass" name="pword"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="submit" name="submit" formaction="search3.html"></td>
+                    <td><input type="reset" id="reset" name="reset" style="margin-left: 70%;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="register3.html">Don't have an account?</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+</html>
