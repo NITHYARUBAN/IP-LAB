@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1">
+    <name>Rooban          -            CHEVY</name>
+    <email>rooban@gamil.com</email>
+    <details>
+      <business>Invester</business>
+      <income>Unknown</income>
+    </details>
+  </user>
+  <user id="2">
+    <name>LUX          -              FORD</name>
+    <email>lux@gmail.com</email>
+    <details>
+      <business>Teacher</business>
+      <income>200000</income>
+    </details>
+  </user>
+  <user id="3">
+    <name> Michael         -           SUPRA</name>
+    <email>michael@gmail.com</email>
+    <details>
+      <business>Racer</business>
+      <income>3500000</income>
+    </details>
+  </user>
+  <user id="4">
+    <name>Jordan       -              ROLLS ROYCE</name>
+    <email>jordan@gmail.com</email>
+    <details>
+      <business>BasketBall Player</business>
+      <income>5000000</income>
+    </details>
+  </user>
+  <user id="5">
+    <name>ANDREW          -              BUGATTI</name>
+    <email>andrew@hustleruniv.com</email>
+    <details>
+      <business>Leader</business>
+      <income>Infinite</income>
+    </details>
+  </user>
+  </users>
